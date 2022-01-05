@@ -1,38 +1,40 @@
-.App {
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap");
+
+.coin-app {
   text-align: center;
+  margin-inline: auto;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+h2 {
+  font: lighter;
+}
+.coin-search {
+  padding: 1rem;
+  width: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.coin-input {
+  padding: 1rem;
+  font-size: medium;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.coin-container {
+  width: 100%;
+  margin-left: 5%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.coin-row {
+  float: left;
+  padding: 2rem;
+  height: 15rem;
 }
 
-.App-link {
-  color: #61dafb;
+img {
+  height: 3rem;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+@media (max-width: 700px) {
+  .coin-row {
+    float: none;
   }
 }

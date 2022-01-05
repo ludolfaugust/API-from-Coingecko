@@ -6,7 +6,7 @@ function Coin({ name, image, symbol, volume, price }) {
       <div className="coin-row">
         <div className="coin">
           <img src={image} alt="crypto" />
-          <h1>{name}</h1>
+          <h3>{name}</h3>
           <p className="coin-symbol">{symbol}</p>
         </div>
         <div className="coin-data">

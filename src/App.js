@@ -29,8 +29,9 @@ function App() {
 
   return (
     <div className="coin-app">
+      <h1>Cointracker for Top 100 Coins from Coingecko</h1>
       <div className="coin-search">
-        <h1 className="coin-text">Search</h1>
+        <h2 className="coin-text">Search for your favorite Coin</h2>
         <form>
           <input
             type="text"
